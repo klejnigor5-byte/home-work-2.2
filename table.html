@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Таблиця Модріана</title>
+     <!-- Підключення шрифту 'Roboto' з Google Fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+     <body>
+</head>
+    <meta charset="UTF-8">
+    <style>
+        table {
+            border-collapse: collapse; /* Прибирає подвійні рамки */
+            width: 400px;
+            height: 400px;
+            background-color: #000; /* Чорний колір для ліній сітки */
+        }
+        td {
+            border: 5px solid #000; /* Товсті чорні лінії */
+            background-color: #fff; /* Білий за замовчуванням */
+        }
+        /* Кольорові акценти */
+        .red { background-color: #ff0000; }
+        .blue { background-color: #0000ff; }
+        .yellow { background-color: #ffff00; }
+    </style>
+</head>
+<body>
 
+    <table>
+        <tr>
+            <td rowspan="2" colspan="2" class="red"></td> <!-- Велика червона область -->
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2"></td>
+        </tr>
+        <tr>
+            <td rowspan="2"></td>
+            <td colspan="2"></td>
+            <td class="blue"></td> <!-- Синій квадрат -->
+        </tr>
+        <tr>
+            <td></td>
+            <td class="yellow"></td> <!-- Жовтий квадрат -->
+            <td></td>
+        </tr>
+    </table>
+
+</body>
+</html>
+
+</body>
+</html>
